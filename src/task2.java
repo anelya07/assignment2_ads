@@ -26,7 +26,7 @@ public class task2 {
         list.add(new BankAccount2(2, "Sara", 220000));
 
         while (true) {
-            System.out.println("\n1. Add account");
+            System.out.println("1. Add account");
             System.out.println("2. Display all");
             System.out.println("3. Search");
             System.out.println("4. Deposit money");

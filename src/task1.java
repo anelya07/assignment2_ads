@@ -23,7 +23,8 @@ public class task1 {
         LinkedList<BankAccount> list = new LinkedList<>();
 
         while (true) {
-            System.out.println("\n1. Add a new account");
+            System.out.println("---------------------------");
+            System.out.println("1. Add a new account");
             System.out.println("2. Display all accounts");
             System.out.println("3. Search account by username");
             System.out.println("4. Exit");
@@ -80,3 +81,5 @@ public class task1 {
         sc.close();
     }
 }
+
+
