@@ -21,7 +21,7 @@ public class task5 {
         LinkedList<BankAccount5> list = new LinkedList<>();
 
         while (true) {
-            System.out.println("\n--- Admin Simulation ---");
+            System.out.println("--- Admin Simulation ---");
             System.out.println("1. Add account request");
             System.out.println("2. Process next request");
             System.out.println("3. Display pending requests");
