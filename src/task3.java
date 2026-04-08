@@ -17,7 +17,7 @@ public class task3 {
             sc.nextLine();
 
             if (choice == 1) {
-                System.out.print("Enter transaction (e.g., 'Deposit 50000 to Ali'): ");
+                System.out.print("Enter transaction: ");
                 String transaction = sc.nextLine();
                 stack.push(transaction);
                 System.out.println("Added: " + transaction);

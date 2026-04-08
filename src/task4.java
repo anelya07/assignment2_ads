@@ -17,7 +17,7 @@ public class task4 {
             sc.nextLine();
 
             if (choice == 1) {
-                System.out.print("Enter bill description (e.g., Electricity Bill): ");
+                System.out.print("Enter bill description: ");
                 String bills = sc.nextLine();
                 queue.add(bills);
                 System.out.println("Added: " + bills);
